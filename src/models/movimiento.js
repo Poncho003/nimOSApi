@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const movimientoSchema = new mongoose.Schema({
-    _id: { type: String },  // <-- ID STRING
+    _id: { type: String },
     usuarioId: String,
     proveedorId: String,
     fecha: Date,
